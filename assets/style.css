@@ -3,6 +3,23 @@
    font-family: "Poppins";
 }
 
+header {
+   display: inline;
+}
+
+#navbar {
+   display: flex;
+   width: 20%;
+   justify-content: space-between;
+   margin: 0 auto;
+   position: sticky;
+   top: 0;
+}
+
+.nav-item {
+   text-decoration: none;
+}
+
 #main {
    display: flex;
    justify-content: space-between;
@@ -11,9 +28,10 @@
 
 #content {
    flex-basis: 73%;
-   padding: 30px;
+   padding: 0 30px 30px 30px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    border-radius: 8px;
+   border-top: 1px solid rgb(236, 234, 234);
 }
 
 #side-content {
@@ -21,7 +39,9 @@
    padding: 30px;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    border-radius: 8px;
-   text-align: justify;
+   text-align: center;
+   border-top: 1px solid rgb(236, 234, 234);
+   height: 50%;
 }
 
 .project-link {
@@ -51,4 +71,19 @@
    font-size: 1rem;
    text-align: justify;
    padding: 30px;
+}
+
+#profile-pic {
+   border-radius: 50%;
+   width: 100%;
+   object-fit: cover;
+   display: block;
+   margin: 10px auto 30px auto;
+}
+
+#footer {
+   padding: 30px;
+}
+
+@media screen {
 }

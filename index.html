@@ -10,16 +10,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
    </head>
    <body>
-      <header>
+      <header >
          <nav id="navbar">
-            <a href="">Projects</a>
-            <a href="">About Me</a>
-            <a href="">Contact</a>
+            <a href="#projects" class="nav-item">Projects</a>
+            <a href="#aboutme" class="nav-item">About Me</a>
          </nav>
       </header>
       <main id="main">
          <div id="content">
-            <h2>Projects :</h2>
+            <h2 id="projects" style="text-align: center;">Projects</h2>
             <article class="project-container">
                <a href="https://www.temuexpert.com/" class="project-link"
                   >Temu Expert</a
@@ -54,16 +53,25 @@
                   />
                   <p class="project-desc">
                      <a href="https://bima.kpk.go.id/pelayanan-publik/pendidikan"> Bima KPK </a>is a
-                     website for users to know about news and information about corruption. This website is created in the vision of public policy openness. My team and  I developed the website using Vue
-                     JS and Quasar. I mainly developed Pelayanan Publik pages, such as Pendidikan, Desa, Fasilitas Kesehatan and Perizinan
+                     website for users to know about news and information about corruption. This website 
+                     is created in the vision of public policy openness. My team and  I developed the website using Vue
+                     JS and Quasar. I mainly developed Pelayanan Publik pages, such as Pendidikan, Desa, 
+                     Fasilitas Kesehatan and Perizinan
                   </p>
                </section>
          </div>
          <aside id="side-content">
-           Hello, I'm <a href="https://www.linkedin.com/in/fadhil-radhian-463024205/">Fadhil Radhian</a>, IT and Technology Enthusiast. I Currently work as Front End Web Dev at Azura Labs, Semarang
+             <img src="assets/img/profile-pic.jfif" id="profile-pic" alt="profile-pic">
+           Hello, my name is <a href="https://www.linkedin.com/in/fadhil-radhian-463024205/">Fadhil Radhian Akhmad</a>, 
+           IT and Technology Enthusiast. I Currently work as Front End Web Dev at Azura Labs, Semarang
          </aside>
       </main>
-      <footer></footer>
+      <footer id="footer">
+          <h3 id="aboutme">About Me</h3>
+          <p>  Hello, my name is <a href="https://www.linkedin.com/in/fadhil-radhian-463024205/">Fadhil Radhian Akhmad</a>, 
+           IT and Technology Enthusiast. I Currently work as Front End Web Dev at Azura Labs, Semarang. I graduated from University of Indonesia, majoring in Arabic Literature then I self-taught myself as a programmer. 
+           Currently I am taking online bootcamp at Binar Academy. </p>
+      </footer>
    </body>
    <script src="assets/script.js"></script>
 </html>
