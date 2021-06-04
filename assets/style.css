@@ -11,6 +11,12 @@ header {
    display: inline;
 }
 
+#site-title {
+   font-family: "Great Vibes";
+   font-size: 2rem;
+   color: #2757cc;
+}
+
 #navbar {
    width: 100%;
    height: 3rem;
@@ -51,6 +57,7 @@ header {
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
    border-radius: 8px;
    border-top: 1px solid rgb(236, 234, 234);
+   background: linear-gradient(to bottom right, #eef5fe, white);
 }
 
 #side-content {
@@ -62,17 +69,21 @@ header {
    border-top: 1px solid rgb(236, 234, 234);
    height: 50%;
    margin-bottom: 20px;
+   background: linear-gradient(to top left, #eef5fe, white);
 }
 
 .project-link {
    font-size: 24px;
    width: 100%;
    text-align: center;
+   color: #2757cc;
+   font-weight: normal;
 }
 
 #title {
    text-align: center;
    margin-bottom: 2rem;
+   color: #2757cc;
 }
 
 .project-img {
@@ -111,6 +122,19 @@ header {
    text-align: justify;
 }
 
+#aboutme {
+   color: #2757cc;
+}
+
+.links {
+   color: #2757cc;
+   text-decoration: none;
+}
+
+.links:hover {
+   color: black;
+}
+
 @media screen and (max-width: 1000px) {
    #main {
       flex-direction: column-reverse;
@@ -131,5 +155,9 @@ header {
 
    #nav-container {
       width: 50%;
+   }
+
+   .project-desc {
+      padding: 0px;
    }
 }
